@@ -81,7 +81,7 @@ export default function Login() {
           <span className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-600 text-white shadow-glow">
             <Zap className="h-6 w-6" />
           </span>
-          <h1 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-50">Welcome to Nimbus</h1>
+          <h1 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-50">Welcome back</h1>
           <p className="mt-1.5 text-sm text-slate-500 dark:text-slate-400">Sign in to your CRM workspace</p>
         </div>
 
@@ -161,7 +161,7 @@ export default function Login() {
           </div>
         </div>
 
-        <p className="mt-6 text-center text-xs text-slate-400">© 2026 Nimbus CRM. Crafted for the internship assessment.</p>
+        <p className="mt-6 text-center text-xs text-slate-400">© 2026 Dharan CRM. Crafted for the internship assessment.</p>
       </div>
     </div>
   );
