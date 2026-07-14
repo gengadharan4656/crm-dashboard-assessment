@@ -11,7 +11,6 @@ const titles: Record<string, string> = {
   '/dashboard': 'Dashboard',
   '/customers': 'Customers',
   '/orders': 'Orders',
-  '/weather': 'Weather',
   '/settings': 'Settings',
 };
 
@@ -47,7 +46,7 @@ export function Navbar() {
       </button>
 
       <h1 className="text-base font-semibold tracking-tight text-slate-900 dark:text-slate-100">
-        {titles[location.pathname] ?? 'Nimbus'}
+        {titles[location.pathname] ?? 'Dharan'}
       </h1>
 
       <div className="ml-auto flex items-center gap-1.5 sm:gap-2">
