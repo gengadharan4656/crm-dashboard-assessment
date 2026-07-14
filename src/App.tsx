@@ -10,7 +10,6 @@ const Login = lazy(() => import('./pages/Login'));
 const Dashboard = lazy(() => import('./pages/Dashboard'));
 const Customers = lazy(() => import('./pages/Customers'));
 const Orders = lazy(() => import('./pages/Orders'));
-const Weather = lazy(() => import('./pages/Weather'));
 const Settings = lazy(() => import('./pages/Settings'));
 
 function NotFound() {
@@ -40,7 +39,6 @@ export default function App() {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/customers" element={<Customers />} />
             <Route path="/orders" element={<Orders />} />
-            <Route path="/weather" element={<Weather />} />
             <Route path="/settings" element={<Settings />} />
           </Route>
           <Route path="/" element={<Navigate to="/dashboard" replace />} />
