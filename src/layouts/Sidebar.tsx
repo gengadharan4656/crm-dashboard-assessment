@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import {
-  LayoutDashboard, Users, ShoppingCart, Settings, Cloud, X, Zap,
+  LayoutDashboard, Users, ShoppingCart, Settings, X, Zap,
 } from 'lucide-react';
 import { cn } from '../utils/cn';
 import { useUiStore } from '../store/uiStore';
@@ -9,7 +9,6 @@ const nav = [
   { to: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { to: '/customers', label: 'Customers', icon: Users },
   { to: '/orders', label: 'Orders', icon: ShoppingCart },
-  { to: '/weather', label: 'Weather', icon: Cloud },
   { to: '/settings', label: 'Settings', icon: Settings },
 ];
 
@@ -33,7 +32,7 @@ export function Sidebar() {
               <Zap className="h-5 w-5" />
             </span>
             <div>
-              <p className="text-sm font-bold tracking-tight text-slate-900 dark:text-slate-50">Nimbus</p>
+              <p className="text-sm font-bold tracking-tight text-slate-900 dark:text-slate-50">Dharan </p>
               <p className="text-[10px] font-medium uppercase tracking-wider text-slate-400">CRM Suite</p>
             </div>
           </div>
