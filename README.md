@@ -1,4 +1,4 @@
-# CRM Dashboard
+# CRM Dashboard and Weather
 
 A premium SaaS CRM dashboard and weather application built as an internship assessment project. Inspired by the design language of Linear, Stripe, Vercel, and Notion.
 
